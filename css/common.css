@@ -4,13 +4,17 @@ body {
     color: #1b293f;
     margin: 0;
     padding: 0;
-}
 
+    /*フッターが必ず一番下に行くように*/
+    min-height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+}
 img {
     max-width: 100%;
     height: auto;
 }
-
 p {
     font-size: 1.5rem;
     color: #000000;
@@ -19,12 +23,6 @@ p {
 }
 
 /*フッターが必ず一番下に行くように*/
-body {
-    min-height: 100vh;
-    
-    display: flex;
-    flex-direction: column;
-}
 main {
     flex: 1;
 }
@@ -38,29 +36,24 @@ header {
     padding: 1rem 2rem 1rem 2rem;
     box-sizing: border-box;
 }
-
 header a:link,header a:visited {
     color: #fff;
     text-decoration: none;
 }
-
 header a:hover {
     color: #ffe679;
     text-decoration: underline;
 }
-
 .header-inner {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
 }
-
 .nav-menu {
     display: flex;
     gap: 3rem;
     font-size: 1.5rem;
 }
-
 .site-logo {
     height: 7rem;
 }
@@ -73,7 +66,6 @@ footer {
     padding: 1rem 2rem 0.1rem 2rem;
     box-sizing: border-box;
 }
-
 .copyright {
     text-align: center;
     width: 100%;
@@ -86,14 +78,12 @@ footer {
         align-items: center;    /* 中央に寄せる */
         gap: 1rem;              /* ロゴとメニューの間の隙間を作る */
     }
-
     .nav-menu {
         flex-wrap: wrap;        /* メニューの文字が多いときに自動で折り返す */
         text-align: center;      /* 文字自体も中央寄せ */
         justify-content: center;
         gap: 0;
     }
-    
     .nav-menu a {
         border-right: 1px solid #ccc; /* 1本の薄いグレーの線（色はお好みで調整） */
         padding-right: 10px;          /* 線と文字の間の隙間 */
@@ -104,7 +94,6 @@ footer {
     .nav-menu a:last-child {
         border-right: none;
     }
-
     .site-logo {
         object-fit: contain; /* ★これが重要！縦横比を維持して枠内に収める */
         object-position: center; /* 画像を枠の中央に寄せる（初期値） */
