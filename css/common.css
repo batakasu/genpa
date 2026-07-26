@@ -15,11 +15,12 @@ img {
     max-width: 100%;
     height: auto;
 }
-p {
-    font-size: 1.5rem;
-    color: #000000;
-    padding: 1rem;
-    line-height: 1.6;
+h2 {
+    font-size: 2rem;
+    color: #0d3641;
+    padding: 1.5rem 2rem;   
+    margin: 0 auto;  
+    
 }
 
 /*フッターが必ず一番下に行くように*/
