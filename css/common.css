@@ -62,12 +62,16 @@ footer {
     width: 100%;
     background-color: #333; 
     color: #fff;
-    padding: 0.5rem 2rem;
+    padding: 0.8rem 2rem; /* 上下の余白をギュッと狭くする */
     box-sizing: border-box;
+    flex-shrink: 0;
 }
-.copyright {
+.footer-inner {
     text-align: center;
-    width: 100%;
+}
+.footer-inner p {
+    margin: 0;           /* pタグのデフォルトの隙間を消す */
+    font-size: 0.9rem;   /* 少し控えめなサイズにするとさらに薄く見える */
 }
 
 /*スマホ版*/
