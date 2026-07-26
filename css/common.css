@@ -11,6 +11,13 @@ img {
     height: auto;
 }
 
+p {
+    font-size: 1.5rem;
+    color: #000000;
+    padding: 1rem;
+    line-height: 1.6;
+}
+
 /*フッターが必ず一番下に行くように*/
 body {
     min-height: 100vh;
@@ -97,6 +104,7 @@ footer {
     .nav-menu a:last-child {
         border-right: none;
     }
+
     .site-logo {
         object-fit: contain; /* ★これが重要！縦横比を維持して枠内に収める */
         object-position: center; /* 画像を枠の中央に寄せる（初期値） */
