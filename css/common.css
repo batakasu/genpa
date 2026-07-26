@@ -17,7 +17,7 @@ img {
 h2 {
     font-size: 1.5rem;
     color: #000000;
-    padding: 0.5rem 1rem;
+    padding: 1rem;
     line-height: 1.6;
 }
 
@@ -31,7 +31,7 @@ header {
     width: 100%;
     background-color: #70bfe4; 
     color: #fff;
-    margin-bottom: 2rem; 
+    margin-bottom: 1rem; 
     padding: 1rem 2rem 1rem 2rem;
     box-sizing: border-box;
 }
