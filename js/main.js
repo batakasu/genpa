@@ -12,7 +12,7 @@ fetch(rootPath + 'html/header.html')
         console.error('エラー:', error);
     });
     
-fetch(rootPath + 'html/header.html')
+fetch(rootPath + 'html/footer.html')
     .then(response => {
         if (!response.ok) {
             throw new Error('フッターの読み込みに失敗しました');
