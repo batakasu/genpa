@@ -1,4 +1,4 @@
-fetch(rootPath + '/genpa/html/header.html')
+fetch('/genpa/html/header.html')
     .then(response => {
         if (!response.ok) {
             throw new Error('ヘッダーの読み込みに失敗しました');
@@ -12,7 +12,7 @@ fetch(rootPath + '/genpa/html/header.html')
         console.error('エラー:', error);
     });
     
-fetch(rootPath + '/genpa/html/footer.html')
+fetch('/genpa/html/footer.html')
     .then(response => {
         if (!response.ok) {
             throw new Error('フッターの読み込みに失敗しました');
