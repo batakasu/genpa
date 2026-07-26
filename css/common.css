@@ -4,10 +4,9 @@ body {
     color: #1b293f;
     margin: 0;
     padding: 0;
-
-    /*フッターが必ず一番下に行くように*/
-    min-height: 100vh;
     
+/*フッターが必ず一番下に行くように*/
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -15,12 +14,11 @@ img {
     max-width: 100%;
     height: auto;
 }
-h2 {
-    font-size: 2rem;
-    color: #0d3641;
-    padding: 1.5rem 2rem;   
-    margin: 0 auto;  
-    
+p {
+    font-size: 1.5rem;
+    color: #000000;
+    padding: 1rem;
+    line-height: 1.6;
 }
 
 /*フッターが必ず一番下に行くように*/
@@ -64,9 +62,8 @@ footer {
     width: 100%;
     background-color: #333; 
     color: #fff;
-    padding: 0.5rem 2rem 0.1rem 2rem;
+    padding: 1rem 2rem 0.1rem 2rem;
     box-sizing: border-box;
-    flex-shrink: 0;
 }
 .copyright {
     text-align: center;
